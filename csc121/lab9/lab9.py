@@ -72,11 +72,15 @@ class MyGame(arcade.Window):
 
         # instructions in an image
         self.instructions = []
-        texture = arcade.load_texture("instructions_0.png")
+        texture = arcade.load_texture("images/instructions_0.png")
         self.instructions.append(texture)
 
-        texture = arcade.load_texture("instructions_1.png")
+        texture = arcade.load_texture("images/instructions_1.png")
         self.instructions.append(texture)
+
+        # Sound
+        self.good_sound = arcade.load_sound("images/SciFiGun2.m4a")
+        self.bad_sound = arcade.load_sound("images/Swipe9.m4a")
 
         # Dont show mouse
         self.set_mouse_visible(False)
@@ -95,7 +99,7 @@ class MyGame(arcade.Window):
         self.score = 0
 
         # Set up player
-        self.player_sprite = arcade.Sprite("kuromi.png", SPRITE_SCALING_PLAYER)
+        self.player_sprite = arcade.Sprite("images/kuromi.png", SPRITE_SCALING_PLAYER)
         self.player_sprite.center_x = 50
         self.player_sprite.center_y = 50
         self.player_list.append(self.player_sprite)
@@ -104,7 +108,7 @@ class MyGame(arcade.Window):
         for i in range(GOOD_COUNT):
 
             # Create coin instnace
-            good = Good("good.png", SPRITE_SCALING_GOOD)
+            good = Good("images/good.png", SPRITE_SCALING_GOOD)
 
             # Position
             good.center_x = random.randrange(SCREEN_WIDTH)
@@ -117,7 +121,7 @@ class MyGame(arcade.Window):
         for i in range(BAD_COUNT):
 
             # Create coin instnace
-            bad = Bad("bad.png", SPRITE_SCALING_BAD)
+            bad = Bad("images/bad.png", SPRITE_SCALING_BAD)
 
             # Position
             bad.center_x = random.randrange(SCREEN_WIDTH)
@@ -206,9 +210,11 @@ class MyGame(arcade.Window):
             for good in hit_list:
                 good.kill()
                 self.score += 1
+                arcade.play_sound(self.good_sound)
             for bad in die_list:
                 bad.kill()
                 self.score -= 1
+                arcade.play_sound(self.bad_sound)
 
             # ending game
             if self.score == 0 and self.bad_list == 0:
