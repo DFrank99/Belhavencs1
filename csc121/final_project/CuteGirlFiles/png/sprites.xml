@@ -1,0 +1,32 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="Dead (1).png" x="1883" y="1178" width="314" height="442"/>
+	<SubTexture name="Dead (10).png" x="1878" y="786" width="317" height="390"/>
+	<SubTexture name="Dead (11).png" x="2197" y="786" width="310" height="390"/>
+	<SubTexture name="Dead (12).png" x="1877" y="1629" width="319" height="391"/>
+	<SubTexture name="Dead (13).png" x="1876" y="0" width="327" height="392"/>
+	<SubTexture name="Dead (14).png" x="1543" y="806" width="333" height="392"/>
+	<SubTexture name="Dead (15).png" x="1539" y="1236" width="342" height="391"/>
+	<SubTexture name="Dead (16).png" x="830" y="1502" width="358" height="389"/>
+	<SubTexture name="Dead (17).png" x="810" y="720" width="371" height="387"/>
+	<SubTexture name="Dead (18).png" x="806" y="0" width="377" height="379"/>
+	<SubTexture name="Dead (19).png" x="426" y="0" width="378" height="362"/>
+	<SubTexture name="Dead (2).png" x="1545" y="0" width="329" height="439"/>
+	<SubTexture name="Dead (20).png" x="810" y="381" width="374" height="337"/>
+	<SubTexture name="Dead (21).png" x="425" y="570" width="383" height="309"/>
+	<SubTexture name="Dead (22).png" x="421" y="1167" width="398" height="306"/>
+	<SubTexture name="Dead (23).png" x="417" y="1475" width="411" height="322"/>
+	<SubTexture name="Dead (24).png" x="0" y="1475" width="415" height="315"/>
+	<SubTexture name="Dead (25).png" x="0" y="1167" width="419" height="306"/>
+	<SubTexture name="Dead (26).png" x="0" y="865" width="422" height="300"/>
+	<SubTexture name="Dead (27).png" x="0" y="570" width="423" height="293"/>
+	<SubTexture name="Dead (28).png" x="0" y="0" width="424" height="286"/>
+	<SubTexture name="Dead (29).png" x="0" y="288" width="424" height="280"/>
+	<SubTexture name="Dead (3).png" x="1198" y="806" width="343" height="428"/>
+	<SubTexture name="Dead (30).png" x="0" y="288" width="424" height="280"/>
+	<SubTexture name="Dead (4).png" x="1186" y="394" width="356" height="410"/>
+	<SubTexture name="Dead (5).png" x="830" y="1109" width="366" height="391"/>
+	<SubTexture name="Dead (6).png" x="1186" y="0" width="357" height="392"/>
+	<SubTexture name="Dead (7).png" x="1190" y="1502" width="347" height="392"/>
+	<SubTexture name="Dead (8).png" x="1539" y="1629" width="336" height="391"/>
+	<SubTexture name="Dead (9).png" x="1876" y="394" width="324" height="390"/>
+</TextureAtlas>

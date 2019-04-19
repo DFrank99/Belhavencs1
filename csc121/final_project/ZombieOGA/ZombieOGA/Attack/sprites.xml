@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="__Zombie01_Attack_000.png" x="0" y="867" width="355" height="429"/>
+	<SubTexture name="__Zombie01_Attack_001.png" x="0" y="434" width="361" height="431"/>
+	<SubTexture name="__Zombie01_Attack_002.png" x="0" y="0" width="364" height="432"/>
+	<SubTexture name="__Zombie01_Attack_003.png" x="0" y="1298" width="351" height="431"/>
+	<SubTexture name="__Zombie01_Attack_004.png" x="366" y="0" width="329" height="432"/>
+	<SubTexture name="__Zombie01_Attack_005.png" x="697" y="0" width="325" height="432"/>
+	<SubTexture name="__Zombie01_Attack_006.png" x="363" y="434" width="336" height="431"/>
+	<SubTexture name="__Zombie01_Attack_007.png" x="353" y="1298" width="347" height="429"/>
+</TextureAtlas>
