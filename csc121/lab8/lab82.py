@@ -96,9 +96,9 @@ class MyGame(arcade.Window):
 
     def on_draw(self):
         arcade.start_render()
+        self.ghost.draw()
 
         background()
-        self.ghost()
 
     def update(self, delta_time):
         self.ghost.update()
@@ -125,7 +125,6 @@ class MyGame(arcade.Window):
             else:
                 self.ball.change_x = self.key.x * MOVEMENT_SPEED
 
-        self.ghost.update()
 
 def main():
     window = MyGame()
