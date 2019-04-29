@@ -1,6 +1,6 @@
-import os
 import random
 import arcade
+import os
 # --- Constants ---
 SPRITE_SCALING_PLAYER = 0.05
 SPRITE_SCALING_GOOD = 0.04
@@ -117,10 +117,10 @@ class MyGame(arcade.Window):
             # Add coin to lists
             self.good_list.append(good)
 
-        # Create coins
+        # Create enemy
         for i in range(BAD_COUNT):
 
-            # Create coin instnace
+            # Create enemy instnace
             bad = Bad("images/bad.png", SPRITE_SCALING_BAD)
 
             # Position

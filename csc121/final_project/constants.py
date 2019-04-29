@@ -1,0 +1,25 @@
+# --- Constants ---
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+BLACK   = (   0,   0,   0)
+WHITE   = ( 255, 255, 255)
+BLUE    = (   0,   0, 255)
+
+# -- Sprite Constants
+SPRITE_SCALING_PLAYER = 0.05
+SPRITE_SCALING_GOOD = 0.04
+SPRITE_SCALING_BAD = 0.1
+GOOD_COUNT = 50
+BAD_COUNT = 50
+
+# -- Instructions Constants
+INSTRUCTIONS_PAGE_0 = 0
+INSTRUCTIONS_PAGE_1 = 1
+GAME_RUNNING = 2
+GAME_OVER = 3
+
+# -- Resize Constants
+START = 0
+END = 2000
+STEP = 50
